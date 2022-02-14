@@ -1,6 +1,5 @@
 @import 'config';
 @import 'utilities';
-@import 'media';
 
 * {
 	margin: 0;
@@ -12,7 +11,17 @@ html,
 body {
 	font-family: $font-body;
 	line-height: 1.4;
-	background: $c-secondary;
+	background: $clr-secondary;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-heading;
+	font-weight: 300;
 }
 
 a {
@@ -26,23 +35,55 @@ img {
 
 // Header
 .header {
+	// Tagline
 	.tagline {
 		display: flex;
 		align-items: center;
-		padding: 1rem;
+		padding: 3rem;
 
 		&-subheading {
-			font-size: 1.8rem;
+			font-family: 'Montserrat', sans-serif;
 			font-weight: 400;
-			color: $c-neutral;
+			font-size: 1.8rem;
+			color: $clr-neutral;
 			margin-top: 0.8rem;
 		}
 
 		&-heading {
+			font-family: 'Roboto Slab', serif;
 			font-size: 4rem;
-			font-weight: 700;
+			font-weight: 400;
 			line-height: 1.2;
 			margin: 1rem 0;
 		}
 	}
+
+	// Promo Grid
+	.promo-grid {
+		display: grid;
+		grid-gap: 0.5rem;
+		grid-template-columns: repeat(4, 1fr);
+		margin-top: -10rem;
+	}
+
+	// Promo Card
+	.promo {
+		padding: 2rem 1rem;
+		background: $clr-neutral-white;
+		border: 1px solid $clr-neutral-light;
+
+		&-icon {
+			color: $clr-neutral;
+			background: $clr-secondary;
+			padding: 2rem;
+			border-radius: 50%;
+			margin-bottom: 2rem;
+		}
+
+		&-heading {
+			font-size: 2rem;
+		}
+	}
 }
+
+@import 'media';

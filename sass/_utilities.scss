@@ -25,8 +25,13 @@
 	color: $clr-highlight;
 }
 
-.text-light {
-	color: $clr-neutral-light;
+.text-white {
+	color: $clr-neutral-white;
+}
+
+// Text Alignment
+.text-center {
+	text-align: center;
 }
 
 // Buttons
@@ -39,16 +44,16 @@
 
 	&-primary {
 		background: $clr-primary;
-		color: $clr-neutral-light;
+		color: $clr-neutral-white;
 	}
 
 	&-light {
-		background: $clr-neutral-light;
+		background: $clr-neutral-white;
 		color: $clr-neutral-dark;
 	}
 
 	&:hover {
 		background: $clr-neutral-dark;
-		color: $clr-neutral-light;
+		color: $clr-neutral-white;
 	}
 }

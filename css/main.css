@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto+Slab&family=Roboto:wght@300&display=swap");
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   padding: 0 1.5rem;
   margin: auto;
   overflow: hidden;
@@ -24,8 +24,12 @@
   color: #f65b25;
 }
 
-.text-light {
+.text-white {
   color: #ffffff;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .btn {
@@ -60,9 +64,19 @@
 
 html,
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.4;
   background: #e7effa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
 
 a {
@@ -81,20 +95,49 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .header .tagline-subheading {
-  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  font-size: 1.8rem;
   color: #4b5562;
   margin-top: 0.8rem;
 }
 
 .header .tagline-heading {
+  font-family: 'Roboto Slab', serif;
   font-size: 4rem;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.2;
   margin: 1rem 0;
+}
+
+.header .promo-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 0.5rem;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  margin-top: -10rem;
+}
+
+.header .promo {
+  padding: 2rem 1rem;
+  background: #ffffff;
+  border: 1px solid #b5c6dc;
+}
+
+.header .promo-icon {
+  color: #4b5562;
+  background: #e7effa;
+  padding: 2rem;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.header .promo-heading {
+  font-size: 2rem;
 }
 /*# sourceMappingURL=main.css.map */
