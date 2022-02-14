@@ -12,6 +12,10 @@
   background: #f00e10;
 }
 
+.bg-primary {
+  background: #f00e10;
+}
+
 .text-primary {
   color: #f00e10;
 }
@@ -153,5 +157,32 @@ img {
 
 .header .attribute-link:hover {
   border-bottom: 1px solid #4b5562;
+}
+
+.blurb-grid {
+  padding: 5rem 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 3rem;
+}
+
+.blurb-heading {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.blurb-subheading {
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.blurb-desc {
+  font-size: 1.2rem;
+  line-height: 2;
+  margin-bottom: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */

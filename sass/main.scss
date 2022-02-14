@@ -101,4 +101,32 @@ img {
 	}
 }
 
+// Blurb
+.blurb {
+	&-grid {
+		padding: 5rem 2rem;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 3rem;
+	}
+
+	&-heading {
+		font-size: 3rem;
+		line-height: 1.1;
+		margin-bottom: 1rem;
+	}
+
+	&-subheading {
+		font-size: 0.9rem;
+		font-weight: 400;
+		text-transform: uppercase;
+	}
+
+	&-desc {
+		font-size: 1.2rem;
+		line-height: 2;
+		margin-bottom: 1.5rem;
+	}
+}
+
 @import 'media';
