@@ -140,4 +140,18 @@ img {
 .header .promo-heading {
   font-size: 2rem;
 }
+
+.header .attribute {
+  margin: 2rem 0 3.5rem;
+}
+
+.header .attribute-link {
+  display: inline-block;
+  border-bottom: 1px solid #111111;
+  font-style: italic;
+}
+
+.header .attribute-link:hover {
+  border-bottom: 1px solid #4b5562;
+}
 /*# sourceMappingURL=main.css.map */
