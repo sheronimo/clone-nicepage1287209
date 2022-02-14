@@ -1,3 +1,48 @@
 @import 'config';
 @import 'utilities';
 @import 'media';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	font-family: $font-body;
+	line-height: 1.4;
+	background: $c-secondary;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+img {
+	max-width: 100%;
+}
+
+// Header
+.header {
+	.tagline {
+		display: flex;
+		align-items: center;
+		padding: 1rem;
+
+		&-subheading {
+			font-size: 1.8rem;
+			font-weight: 400;
+			color: $c-neutral;
+			margin-top: 0.8rem;
+		}
+
+		&-heading {
+			font-size: 4rem;
+			font-weight: 700;
+			line-height: 1.2;
+			margin: 1rem 0;
+		}
+	}
+}

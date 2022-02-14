@@ -1,13 +1,16 @@
-// Import Fonts
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto+Slab&family=Roboto:wght@300&display=swap');
 
 // Variables
-$max-width: 1180px;
+$max-width: 1100px;
 
-$c-primary: #f00e10;
-$c-secondary: #e7effa;
-$c-highlight: #f65b25;
-$c-light: #ffffff;
-$c-dark: #111111;
+$clr-primary: #f00e10;
+$clr-secondary: #e7effa;
+$clr-highlight: #f65b25;
 
-$font-stack: 'Lato', sans-serif;
+$clr-neutral: #4b5562;
+$clr-neutral-light: #ffffff;
+$clr-neutral-dark: #111111;
+
+$font-body: 'Open Sans', sans-serif;
+$font-heading: 'Roboto', sans-serif;
