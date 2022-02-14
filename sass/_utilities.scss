@@ -39,6 +39,11 @@
 	text-align: center;
 }
 
+// Heading Sizes
+.l-heading {
+	font-size: 3rem;
+}
+
 // Buttons
 .btn {
 	display: inline-block;
@@ -60,5 +65,18 @@
 	&:hover {
 		background: $clr-neutral-dark;
 		color: $clr-neutral-white;
+	}
+}
+
+// Attribute
+.attribute {
+	&-link {
+		display: inline-block;
+		border-bottom: 1px solid $clr-neutral-dark;
+		font-style: italic;
+
+		&:hover {
+			border-bottom: 1px solid $clr-neutral;
+		}
 	}
 }
