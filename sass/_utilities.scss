@@ -1,0 +1,54 @@
+.container {
+	max-width: $max-width;
+	padding: 0 1.5rem;
+	margin: auto;
+	overflow: hidden;
+}
+
+// Strips
+.strip-sm {
+	width: 80px;
+	height: 9px;
+	background: $clr-primary;
+}
+
+// Text Colors
+.text-primary {
+	color: $clr-primary;
+}
+
+.text-secondary {
+	color: $clr-secondary;
+}
+
+.text-highlight {
+	color: $clr-highlight;
+}
+
+.text-light {
+	color: $clr-neutral-light;
+}
+
+// Buttons
+.btn {
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	letter-spacing: 2px;
+	padding: 1.2rem 3.2rem;
+
+	&-primary {
+		background: $clr-primary;
+		color: $clr-neutral-light;
+	}
+
+	&-light {
+		background: $clr-neutral-light;
+		color: $clr-neutral-dark;
+	}
+
+	&:hover {
+		background: $clr-neutral-dark;
+		color: $clr-neutral-light;
+	}
+}
