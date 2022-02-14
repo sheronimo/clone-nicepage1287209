@@ -118,4 +118,55 @@ img {
 	}
 }
 
+// Services
+.services {
+	margin: 10rem 0;
+	position: relative;
+
+	&::before {
+		content: '';
+		position: absolute;
+		top: -22.5%;
+		left: 17.5%;
+		background: $clr-primary;
+		width: 90px;
+		height: 90px;
+		border-radius: 50%;
+	}
+
+	&::after {
+		content: '';
+		position: absolute;
+		bottom: -17.5%;
+		right: 12.5%;
+		background: $clr-primary;
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+	}
+
+	&-grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	&-content {
+		background: $clr-neutral-white;
+		padding: 3rem 2rem;
+	}
+
+	&-desc {
+		line-height: 1.8;
+		margin: 2.5rem 0;
+	}
+
+	.attribute {
+		margin-bottom: 2rem;
+	}
+
+	&-img {
+		background: url('../img/services.jpg') no-repeat top left/cover;
+	}
+}
+
 @import 'media';

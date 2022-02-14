@@ -189,4 +189,56 @@ img {
   line-height: 2;
   margin-bottom: 1.5rem;
 }
+
+.services {
+  margin: 10rem 0;
+  position: relative;
+}
+
+.services::before {
+  content: '';
+  position: absolute;
+  top: -22.5%;
+  left: 17.5%;
+  background: #f00e10;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.services::after {
+  content: '';
+  position: absolute;
+  bottom: -17.5%;
+  right: 12.5%;
+  background: #f00e10;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.services-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.services-content {
+  background: #ffffff;
+  padding: 3rem 2rem;
+}
+
+.services-desc {
+  line-height: 1.8;
+  margin: 2.5rem 0;
+}
+
+.services .attribute {
+  margin-bottom: 2rem;
+}
+
+.services-img {
+  background: url("../img/services.jpg") no-repeat top left/cover;
+}
 /*# sourceMappingURL=main.css.map */
