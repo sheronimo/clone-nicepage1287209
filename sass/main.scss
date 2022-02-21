@@ -169,4 +169,39 @@ img {
 	}
 }
 
+// Values
+.values {
+	&-grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 2rem;
+		padding: 4rem 0;
+	}
+
+	.value {
+		border: 2px solid $clr-neutral-white;
+		padding: 2rem;
+
+		&-num {
+			font-family: $font-heading;
+			font-weight: 700;
+		}
+
+		&-heading {
+			margin-top: 1rem;
+		}
+
+		&-text {
+			line-height: 1.6;
+			margin: 2rem 0;
+		}
+
+		&-btn {
+			margin-top: 0.5rem;
+			padding: 1.2rem 2.5rem;
+			border-radius: 2px;
+		}
+	}
+}
+
 @import 'media';
