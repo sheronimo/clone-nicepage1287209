@@ -314,4 +314,39 @@ img {
 	}
 }
 
+// Solutions
+.solutions {
+	padding: 2rem 0;
+
+	&-title {
+		font-size: 3.75rem;
+		width: 60%;
+		margin: 1rem 0;
+	}
+
+	.strip-md {
+		margin-bottom: 4rem;
+	}
+
+	.solution {
+		margin: 2rem 0;
+		background: $clr-secondary;
+		border-left: 1.125rem solid $clr-primary;
+		padding: 1.75rem 5rem 1.5rem 2.25rem;
+		width: 75%;
+
+		&-heading {
+			text-transform: uppercase;
+			font-size: 1.25rem;
+			font-weight: 700;
+			letter-spacing: 1px;
+		}
+
+		&-desc {
+			line-height: 1.6;
+			margin: 1.5rem 0 1rem;
+		}
+	}
+}
+
 @import 'media';
