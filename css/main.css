@@ -147,7 +147,7 @@ ul {
   margin: 1rem 0;
 }
 
-.header .promo-grid {
+.header .promo-container {
   display: -ms-grid;
   display: grid;
   grid-gap: 0.5rem;
@@ -182,18 +182,24 @@ ul {
   font-style: italic;
 }
 
-.blurb-grid {
-  padding: 3.75rem 1.875rem;
+.blurb-container {
+  padding: 5.625rem 1.875rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  gap: 1.875rem;
+  gap: 3rem;
+}
+
+.blurb-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 .blurb-heading {
