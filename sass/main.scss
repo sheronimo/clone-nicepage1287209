@@ -500,4 +500,20 @@ ul {
 	}
 }
 
+// Footer
+.footer {
+	background-color: $clr-neutral-darker;
+	padding: 3rem 0;
+	font-size: 0.875rem;
+
+	.attribute {
+		margin-top: 4rem;
+	}
+
+	&-link {
+		text-decoration: underline;
+		color: $clr-highlight-light;
+	}
+}
+
 @import 'media';

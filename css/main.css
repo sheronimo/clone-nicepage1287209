@@ -619,4 +619,19 @@ ul {
   width: 100%;
   margin-top: 1rem;
 }
+
+.footer {
+  background-color: #333333;
+  padding: 3rem 0;
+  font-size: 0.875rem;
+}
+
+.footer .attribute {
+  margin-top: 4rem;
+}
+
+.footer-link {
+  text-decoration: underline;
+  color: #e9b9b8;
+}
 /*# sourceMappingURL=main.css.map */
