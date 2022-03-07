@@ -81,15 +81,14 @@
 	}
 }
 
-// Attribute
-.attribute {
+// Freepik Attribution
+.freepik {
 	&-link {
 		display: inline-block;
-		border-bottom: 1px solid $clr-neutral-dark;
-		font-style: italic;
+		border-bottom: 1px solid $clr-black;
 
 		&:hover {
-			border-bottom: 1px solid $clr-neutral;
+			border: 0;
 		}
 	}
 }
