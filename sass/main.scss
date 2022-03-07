@@ -33,6 +33,10 @@ img {
 	max-width: 100%;
 }
 
+ul {
+	list-style: none;
+}
+
 // Header
 .header {
 	// Tagline
@@ -417,6 +421,81 @@ img {
 		&-num {
 			font-weight: 700;
 			font-size: 3.75rem;
+		}
+	}
+}
+
+// Contact Section
+.contact {
+	&-card {
+		width: 90%;
+		margin: 4rem auto;
+		padding: 4rem 3rem;
+		box-shadow: 0 1rem 30px hsla(0, 0%, 0%, 0.3);
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		align-items: center;
+		justify-content: center;
+	}
+
+	&-heading {
+		font-size: 1.875rem;
+		font-weight: 700;
+	}
+
+	&-list {
+		margin: 1rem 0;
+		line-height: 1.7;
+	}
+
+	&-item {
+		margin: 1rem 0;
+	}
+
+	&-icon {
+		color: $clr-primary;
+		margin-right: 0.3125rem;
+	}
+
+	&-link {
+		font-size: 1.25rem;
+
+		&:hover {
+			color: $clr-primary;
+		}
+	}
+
+	.sns {
+		&-list {
+			display: flex;
+			font-size: 1.75rem;
+			gap: 1.5rem;
+			margin-top: 3rem;
+		}
+	}
+
+	&-form {
+		.form-input {
+			display: block;
+			width: 100%;
+			padding: 1rem 0.5rem;
+			border: 0;
+			border-bottom: 2px solid hsl(0, 0%, 0%);
+		}
+
+		.form-input::placeholder {
+			font-family: $font-body;
+			font-size: 1rem;
+		}
+
+		.form-textarea {
+			height: 9rem;
+		}
+
+		.form-btn {
+			display: block;
+			width: 100%;
+			margin-top: 1rem;
 		}
 	}
 }

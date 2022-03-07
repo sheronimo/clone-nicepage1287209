@@ -61,6 +61,8 @@
 	font-size: 0.9rem;
 	letter-spacing: 2px;
 	padding: 1.2rem 3.2rem;
+	border: 0;
+	cursor: pointer;
 
 	&-primary {
 		background: $clr-primary;

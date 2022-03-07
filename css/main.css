@@ -56,6 +56,8 @@
   font-size: 0.9rem;
   letter-spacing: 2px;
   padding: 1.2rem 3.2rem;
+  border: 0;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -114,6 +116,10 @@ a {
 
 img {
   max-width: 100%;
+}
+
+ul {
+  list-style: none;
 }
 
 .header .tagline {
@@ -520,5 +526,97 @@ img {
 .about .stat-num {
   font-weight: 700;
   font-size: 3.75rem;
+}
+
+.contact-card {
+  width: 90%;
+  margin: 4rem auto;
+  padding: 4rem 3rem;
+  -webkit-box-shadow: 0 1rem 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 1rem 30px rgba(0, 0, 0, 0.3);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact-heading {
+  font-size: 1.875rem;
+  font-weight: 700;
+}
+
+.contact-list {
+  margin: 1rem 0;
+  line-height: 1.7;
+}
+
+.contact-item {
+  margin: 1rem 0;
+}
+
+.contact-icon {
+  color: #f00e10;
+  margin-right: 0.3125rem;
+}
+
+.contact-link {
+  font-size: 1.25rem;
+}
+
+.contact-link:hover {
+  color: #f00e10;
+}
+
+.contact .sns-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.75rem;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.contact-form .form-input {
+  display: block;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border: 0;
+  border-bottom: 2px solid black;
+}
+
+.contact-form .form-input::-webkit-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.contact-form .form-input:-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.contact-form .form-input::-ms-input-placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.contact-form .form-input::placeholder {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+
+.contact-form .form-textarea {
+  height: 9rem;
+}
+
+.contact-form .form-btn {
+  display: block;
+  width: 100%;
+  margin-top: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
