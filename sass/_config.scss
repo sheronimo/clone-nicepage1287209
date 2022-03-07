@@ -4,16 +4,19 @@
 // Variables
 $max-width: 1200px;
 
-$clr-primary: #f00e10;
-$clr-secondary: #e7effa;
-$clr-highlight: #f65b25;
-$clr-highlight-light: rgb(233, 185, 184);
+$clr-primary: hsl(359, 89%, 50%);
+$clr-secondary: hsl(216, 67%, 94%);
 
-$clr-neutral: #4b5562;
-$clr-neutral-light: #b5c6dc;
-$clr-neutral-white: #ffffff;
-$clr-neutral-dark: #111111;
-$clr-neutral-darker: #333333;
+// One-off colors
+$clr-promo-border: rgb(182, 199, 221);
+$clr-team-heading: hsl(16, 92%, 55%);
+$clr-footer-link: rgb(233, 185, 184);
+$clr-footer-bg: hsl(0, 65%, 3%);
+
+$clr-neutral: hsl(214, 13%, 34%);
+
+$clr-white: hsl(0, 0%, 100%);
+$clr-black: hsl(0, 0%, 7%);
 
 $font-body: 'Open Sans', sans-serif;
 $font-heading: 'Roboto', sans-serif;
