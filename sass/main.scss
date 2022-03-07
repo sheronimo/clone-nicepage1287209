@@ -73,8 +73,8 @@ ul {
 	// Promo Card
 	.promo {
 		padding: 2rem 1rem;
-		background: $clr-neutral-white;
-		border: 1px solid $clr-neutral-light;
+		background: $clr-white;
+		border: 1px solid $clr-promo-border;
 
 		&-icon {
 			color: $clr-neutral;
@@ -89,18 +89,23 @@ ul {
 		}
 	}
 
-	.attribute {
-		margin: 2rem 0 3.5rem;
+	.freepik {
+		margin: 1.625rem 0 3.5rem;
+
+		&-link {
+			font-style: italic;
+		}
 	}
 }
 
 // Blurb
 .blurb {
 	&-grid {
-		padding: 5rem 2rem;
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 3rem;
+		padding: 3.75rem 1.875rem;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 1.875rem;
 	}
 
 	&-heading {
@@ -155,7 +160,7 @@ ul {
 	}
 
 	&-content {
-		background: $clr-neutral-white;
+		background: $clr-white;
 		padding: 3rem 2rem;
 	}
 
@@ -183,7 +188,7 @@ ul {
 	}
 
 	.value {
-		border: 2px solid $clr-neutral-white;
+		border: 2px solid $clr-white;
 		padding: 2rem;
 
 		&-num {
@@ -308,7 +313,7 @@ ul {
 			}
 
 			&:hover {
-				color: $clr-highlight;
+				color: $clr-team-heading;
 			}
 		}
 	}
@@ -468,6 +473,7 @@ ul {
 	.sns {
 		&-list {
 			display: flex;
+			align-items: center;
 			font-size: 1.75rem;
 			gap: 1.5rem;
 			margin-top: 3rem;
@@ -502,7 +508,7 @@ ul {
 
 // Footer
 .footer {
-	background-color: $clr-neutral-darker;
+	background-color: $clr-footer-bg;
 	padding: 3rem 0;
 	font-size: 0.875rem;
 
@@ -512,7 +518,7 @@ ul {
 
 	&-link {
 		text-decoration: underline;
-		color: $clr-highlight-light;
+		color: $clr-footer-link;
 	}
 }
 
