@@ -322,7 +322,7 @@ ul {
 		}
 	}
 
-	.attribute {
+	.freepik {
 		margin-bottom: 2rem;
 	}
 }
@@ -396,18 +396,8 @@ ul {
 		margin: 1rem 0;
 	}
 
-	.attribute {
+	.freepik {
 		margin-bottom: 1.5rem;
-
-		&-link {
-			font-style: normal;
-			transition: 0;
-
-			&:hover {
-				color: inherit;
-				border: 0;
-			}
-		}
 	}
 
 	.stat {

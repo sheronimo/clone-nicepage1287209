@@ -419,7 +419,7 @@ ul {
   color: #f65b23;
 }
 
-.team .attribute {
+.team .freepik {
   margin-bottom: 2rem;
 }
 
@@ -495,19 +495,8 @@ ul {
   margin: 1rem 0;
 }
 
-.about .attribute {
+.about .freepik {
   margin-bottom: 1.5rem;
-}
-
-.about .attribute-link {
-  font-style: normal;
-  -webkit-transition: 0;
-  transition: 0;
-}
-
-.about .attribute-link:hover {
-  color: inherit;
-  border: 0;
 }
 
 .about .stat {
